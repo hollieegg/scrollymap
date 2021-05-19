@@ -34,11 +34,7 @@ var config = {
             title: 'Fundraiser',
             // image: './path/to/image/source.png',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-            location: {  
-                // center: [-89.2477, 48.3809],
-                // zoom: 9.83,
-                // pitch: 0.00,
-                // bearing: 0.00 
+            location: { 
             },
             onChapterEnter: [],
             onChapterExit: []
@@ -98,10 +94,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-84.748093, 47.472679],
-                zoom: 9.83,
-                pitch: 0.00,
-                bearing: 0.00 
+                // center: [-84.748093, 47.472679],
+                // zoom: 9.83,
+                // pitch: 0.00,
+                // bearing: 0.00 
             },
             onChapterEnter: [],
             onChapterExit: []
