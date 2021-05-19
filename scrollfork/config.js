@@ -95,7 +95,8 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {
             },
-            onChapterEnter: [],
+            onChapterEnter: [-84.748093,
+                47.472679],
             onChapterExit: []
         },
         {
