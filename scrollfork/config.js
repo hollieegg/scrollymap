@@ -23,7 +23,7 @@ var config = {
     accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja292eXAzbnUwMHdhMnVsdTM4c2MyOTF3In0.6RiKfls_ZXfiI0k-q7gLDQ',
     showMarkers: false,
     theme: 'dark',
-    alignment: 'left',
+    alignment: 'bottom',
     title: 'Liberty Project',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
     byline: 'By a Digital Storyteller',
