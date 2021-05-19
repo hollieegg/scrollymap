@@ -170,15 +170,7 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-        {
-            id: 'drive-slide-7',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {},
-            onChapterEnter: [],
-            onChapterExit: []
-        },
+
         {
             id: 'drive-slide-12',
             title: 'Second Title',
