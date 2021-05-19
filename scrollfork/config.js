@@ -30,6 +30,31 @@ var config = {
     footer: 'Source: source citations, etc.',
     chapters: [
         {
+            id: 'start',
+            alignment: 'right',
+            title: 'Start Location',
+            image: '',
+            description: 'The start Location for the Bike fundraiser',
+            location: {
+                center: [-89.2477, 48.3809],
+                zoom: 9.83,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [
+                {
+                    layer: 'phl-city-limits',
+                    opacity: .45
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'phl-city-limits',
+                    opacity: 0
+                }
+            ]
+        },
+        {
             id: 'slide-0',
             title: 'Fundraiser',
             // image: './path/to/image/source.png',
