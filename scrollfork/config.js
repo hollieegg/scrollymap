@@ -1,6 +1,6 @@
 // Number of slides that will drive (more = smoother)
 // If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
-var driveSlides = 7;
+var driveSlides = 15;
 
 // Number of points on drive route (more = higher quality, but slower to process)
 var driveSmoothness = 200;
@@ -9,7 +9,7 @@ var driveSmoothness = 200;
 var driveTime = driveSlides*driveSmoothness;
 
 // Do you want to follow the point? True = follow
-var followPoint = false;
+var followPoint = true;
 
 // ...If so, what zoom, pitch, and bearing should be used to follow?
 var followZoomLevel = 14;
@@ -23,7 +23,7 @@ var config = {
     accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja242cWV3MmMwZ20wMnVwc2czZjJzenNwIn0.PI62Np0H-aZ3ydTGcbM96g',
     showMarkers: false,
     theme: 'dark',
-    alignment: 'center',
+    alignment: 'left',
     title: 'Liberty Project',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
     byline: 'By a Digital Storyteller',
