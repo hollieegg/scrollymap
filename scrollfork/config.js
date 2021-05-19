@@ -21,7 +21,7 @@ var followPitch = 0;
 var config = {
     style: 'mapbox://styles/mapbox/outdoors-v11',
     accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja292eXAzbnUwMHdhMnVsdTM4c2MyOTF3In0.6RiKfls_ZXfiI0k-q7gLDQ',
-    showMarkers: false,
+    showMarkers: true,
     theme: 'dark',
     alignment: 'left',
     title: 'Liberty Project',
