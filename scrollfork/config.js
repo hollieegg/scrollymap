@@ -206,6 +206,6 @@ var config = {
             location: {},
             onChapterEnter: [],
             onChapterExit: []
-        },
+        }
     ]
 };
