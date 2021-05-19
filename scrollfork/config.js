@@ -41,18 +41,8 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [
-                {
-                    layer: 'phl-city-limits',
-                    opacity: .45
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'phl-city-limits',
-                    opacity: 0
-                }
-            ]
+            onChapterEnter: [],
+            onChapterExit: []
         },
         {
             id: 'slide-0',
