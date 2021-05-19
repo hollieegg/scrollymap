@@ -194,7 +194,8 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
-            onChapterEnter: [],
+            onChapterEnter: [-78.31972,
+                44.30345],
             onChapterExit: []
         }
     ]
