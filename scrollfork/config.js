@@ -56,7 +56,7 @@ var config = {
         },
         {
             id: 'drive-slide-0',
-            title: 'Second Title',
+            title: 'DAy 1?',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -66,7 +66,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'drive-slide-1',
+            id: 'Day 2?',
             title: 'Second Title',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
