@@ -66,8 +66,8 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'Day 2?',
-            title: 'Second Title',
+            id: 'drive-slide-1',
+            title: 'Day 2???',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
