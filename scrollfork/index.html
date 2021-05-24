@@ -331,6 +331,7 @@ map.on("load", function() {
         offset: 0.5,
         progress: true
     })
+    // entering and exiting chapters
     .onStepEnter(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
@@ -359,6 +360,7 @@ map.on("load", function() {
 // setup resize event
 window.addEventListener('resize', scroller.resize);
 
+// THIS IS WHERE TO LINK TO THE GEOJSON OF THE ROUTE 
 $(document).ready(function (){
     $.ajax({
       // url:"./data/highwaydrive.geojson",

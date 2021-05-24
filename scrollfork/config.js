@@ -9,8 +9,8 @@ var driveSmoothness = 180;
 var driveTime = driveSlides*driveSmoothness;
 
 // Do you want to follow the point? True = follow
+// True is not that smpooth- working on seeing if can get it to follow more smoothly 
 var followPoint = false;
-
 // ...If so, what zoom, pitch, and bearing should be used to follow?
 var followZoomLevel = 7;
 var followBearing = 19;
@@ -102,17 +102,17 @@ var config = {
             onChapterExit: []
         },
 
-        // You can add a normal slide in the middle of the drive slides to take a break
+        // You can add a normal slide in between the other slides
         {
             id: 'slide-4',
             title: 'Second Title',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                // center: [-84.748093, 47.472679],
-                // zoom: 9.83,
-                // pitch: 0.00,
-                // bearing: 0.00 
+                center: [-84.748093, 47.472679],
+                zoom: 9.83,
+                pitch: 0.00,
+                bearing: 0.00 
             },
             onChapterEnter: [],
             onChapterExit: []
