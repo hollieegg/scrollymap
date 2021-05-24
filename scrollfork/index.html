@@ -361,34 +361,34 @@ map.on("load", function() {
 window.addEventListener('resize', scroller.resize);
 
 // On every scroll event, check which element is on screen. If it is on the scrolly chapter listed then it will activate a fly to animation.
-window.onscroll = function () {
-    var chapterNames = Object.keys(config);
-    for (var i = 0; i < chapterNames.length; i++) {
-        var chapterName = chapterNames[i];
-        if (isElementOnScreen(chapterName)) {
-        setActiveChapter(chapterName);
-        break;
-        }
-    }
-};
+// window.onscroll = function () {
+//     var chapterNames = Object.keys(config);
+//     for (var i = 0; i < chapterNames.length; i++) {
+//         var chapterName = chapterNames[i];
+//         if (isElementOnScreen(chapterName)) {
+//         setActiveChapter(chapterName);
+//         break;
+//         }
+//     }
+// };
  
-var activeChapterName = 'drive-slide-3';
-function setActiveChapter(chapterName) {
-    if (chapterName === activeChapterName) return;
+// var activeChapterName = 'drive-slide-3';
+// function setActiveChapter(chapterName) {
+//     if (chapterName === activeChapterName) return;
  
-    map.flyTo(config[chapterName]);
+//     map.flyTo(config[chapterName]);
     
-    document.getElementById(chapterName).setAttribute('class', 'active');
-    document.getElementById(activeChapterName).setAttribute('class', '');
+//     document.getElementById(chapterName).setAttribute('class', 'active');
+//     document.getElementById(activeChapterName).setAttribute('class', '');
     
-    activeChapterName = chapterName;
-}
+//     activeChapterName = chapterName;
+// }
  
-function isElementOnScreen(id) {
-    var element = document.getElementById(id);
-    var bounds = element.getBoundingClientRect();
-    return bounds.top < window.innerHeight && bounds.bottom > 0;
-}
+// function isElementOnScreen(id) {
+//     var element = document.getElementById(id);
+//     var bounds = element.getBoundingClientRect();
+//     return bounds.top < window.innerHeight && bounds.bottom > 0;
+// }
 
 
 
