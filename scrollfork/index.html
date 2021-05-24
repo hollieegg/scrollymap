@@ -355,8 +355,8 @@ map.on("load", function() {
     .onStepEnter(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
-        map.panTo([-74, 38], {duration: 5000});
-        // map[chapter.mapAnimation || 'flyTo'](chapter.location);
+
+        map[chapter.mapAnimation || 'panTo'](chapter.location);
         // map.flyTo(chapter.location);
 
         if (config.showMarkers) {
