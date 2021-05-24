@@ -360,9 +360,9 @@ map.on("load", function() {
 // setup resize event
 window.addEventListener('resize', scroller.resize);
 
-// On every scroll event, check which element is on screen
+// On every scroll event, check which element is on screen. If it is on the scrolly chapter listed then it will activate a fly to animation.
 window.onscroll = function () {
-    var chapterNames = Object.keys(chapters);
+    var chapterNames = Object.keys(config);
     for (var i = 0; i < chapterNames.length; i++) {
         var chapterName = chapterNames[i];
         if (isElementOnScreen(chapterName)) {
@@ -376,7 +376,7 @@ var activeChapterName = 'drive-slide-3';
 function setActiveChapter(chapterName) {
     if (chapterName === activeChapterName) return;
  
-    map.flyTo(chapters[chapterName]);
+    map.flyTo(config[chapterName]);
     
     document.getElementById(chapterName).setAttribute('class', 'active');
     document.getElementById(activeChapterName).setAttribute('class', '');
