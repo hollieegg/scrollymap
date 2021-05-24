@@ -119,13 +119,13 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-84.748093, 47.472679],
-                zoom: 9.83,
-                pitch: 0.00,
-                bearing: 0.00 
+                // zoom: 9.83,
+                // pitch: 0.00,
+                // bearing: 0.00 
             },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
+            // mapAnimation: 'flyTo',
+            // rotateAnimation: false,
+            // callback: '',
             onChapterEnter: [],
             onChapterExit: []
         },
