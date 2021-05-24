@@ -335,7 +335,7 @@ map.on("load", function() {
     .onStepEnter(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
-        map[chapter.mapAnimation || 'flyTo'](chapter.location);
+        // map[chapter.mapAnimation || 'flyTo'](chapter.location);
         // map.flyTo(chapter.location);
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
@@ -359,6 +359,41 @@ map.on("load", function() {
 
 // setup resize event
 window.addEventListener('resize', scroller.resize);
+
+// On every scroll event, check which element is on screen
+window.onscroll = function () {
+    var chapterNames = Object.keys(chapters);
+    for (var i = 0; i < chapterNames.length; i++) {
+        var chapterName = chapterNames[i];
+        if (isElementOnScreen(chapterName)) {
+        setActiveChapter(chapterName);
+        break;
+        }
+    }
+};
+ 
+var activeChapterName = 'drive-slide-3';
+function setActiveChapter(chapterName) {
+    if (chapterName === activeChapterName) return;
+ 
+    map.flyTo(chapters[chapterName]);
+    
+    document.getElementById(chapterName).setAttribute('class', 'active');
+    document.getElementById(activeChapterName).setAttribute('class', '');
+    
+    activeChapterName = chapterName;
+}
+ 
+function isElementOnScreen(id) {
+    var element = document.getElementById(id);
+    var bounds = element.getBoundingClientRect();
+    return bounds.top < window.innerHeight && bounds.bottom > 0;
+}
+
+
+
+
+
 
 // THIS IS WHERE TO LINK TO THE GEOJSON OF THE ROUTE 
 $(document).ready(function (){
