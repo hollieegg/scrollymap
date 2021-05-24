@@ -95,9 +95,7 @@ var config = {
                 pitch: 60.00,
                 bearing: 0.00 
             },
-            mapAnimation: 'jumpTo',
-            rotateAnimation: false,
-            callback: '',
+      
             onChapterEnter: [],
             onChapterExit: []
         },

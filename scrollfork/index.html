@@ -296,6 +296,26 @@ map.on("load", function() {
         "data": geojsonPoint
     });
 
+    // this could be a way of pulling the stops then refferring into the chapters to show or hide the stops on enter/exit/ 
+    // map.addSource('my-data', {
+    //     type: 'geojson',
+    //     url: 'mapbox://ername.tilesetid'
+    //     });
+    // map.addSource('my-data', {
+    //     "type": "geojson",
+    //     "data": {
+    //     "type": "Feature",
+    //     "geometry": {
+    //     "type": "Point",
+    //     "coordinates": [-77.0323, 38.9131]
+    //     },
+    //     "properties": {
+    //     "title": "Mapbox DC",
+    //     "marker-symbol": "monument"
+    //     }
+    //     }
+    //     });
+
     map.addLayer({
       "id": "animatedLine",
       "type": "line",
@@ -335,6 +355,7 @@ map.on("load", function() {
     .onStepEnter(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
+        map.panTo([-74, 38], {duration: 5000});
         // map[chapter.mapAnimation || 'flyTo'](chapter.location);
         // map.flyTo(chapter.location);
 
