@@ -32,6 +32,7 @@ var config = {
         {
             id: 'start',
             alignment: 'right',
+            // hidden: false,
             title: 'Start Location',
             image: '',
             description: 'The start Location for the Bike fundraiser',
@@ -122,6 +123,9 @@ var config = {
                 // pitch: 0.00,
                 // bearing: 0.00 
             },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
             onChapterEnter: [],
             onChapterExit: []
         },
