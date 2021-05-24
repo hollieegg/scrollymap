@@ -88,7 +88,12 @@ var config = {
             title: 'Second Title',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [-84.748093, 47.472679],
+                zoom: 9.83,
+                pitch: 0.00,
+                bearing: 0.00 
+            },
             onChapterEnter: [],
             onChapterExit: []
         },
@@ -109,10 +114,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-84.748093, 47.472679],
-                zoom: 9.83,
-                pitch: 0.00,
-                bearing: 0.00 
+                // center: [-84.748093, 47.472679],
+                // zoom: 9.83,
+                // pitch: 0.00,
+                // bearing: 0.00 
             },
             onChapterEnter: [],
             onChapterExit: []
