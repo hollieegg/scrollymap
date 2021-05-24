@@ -335,11 +335,11 @@ map.on("load", function() {
     .onStepEnter(response => {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
-        map[chapter.mapAnimation || 'flyTo'](chapter.location);
-        // map.flyTo(chapter.location);
+        // map[chapter.mapAnimation || 'flyTo'](chapter.location);
+        map.flyTo(chapter.location);
         map.flyTo({
             // center: [0, 0],
-            // zoom: 9,
+            zoom: 9,
             speed: 0.2,
             curve: 1,
             easing(t) {
