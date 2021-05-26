@@ -180,51 +180,42 @@ var config = {
             location: {},
             onChapterEnter: [],
             onChapterExit: []
+        },
+        {
+            id: 'drive-slide-11',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-12',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-13',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-14',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
         }
-        // {
-        //     id: 'drive-slide-11',
-        //     title: 'Second Title',
-        //     image: './path/to/image/source.png',
-        //     description: 'Copy these sections to add to your story.',
-        //     location: {},
-        //     onChapterEnter: [],
-        //     onChapterExit: []
-        // },
-        // {
-        //     id: 'drive-slide-12',
-        //     title: 'Second Title',
-        //     image: './path/to/image/source.png',
-        //     description: 'Copy these sections to add to your story.',
-        //     location: {},
-        //     onChapterEnter: [],
-        //     onChapterExit: []
-        // },
-        // {
-        //     id: 'drive-slide-13',
-        //     title: 'Second Title',
-        //     image: './path/to/image/source.png',
-        //     description: 'Copy these sections to add to your story.',
-        //     location: {},
-        //     onChapterEnter: [],
-        //     onChapterExit: []
-        // },
-        // {
-        //     id: 'drive-slide-14',
-        //     title: 'Second Title',
-        //     image: './path/to/image/source.png',
-        //     description: 'Copy these sections to add to your story.',
-        //     location: {},
-        //     onChapterEnter: [],
-        //     onChapterExit: []
-        // },
-        // {
-        //     id: 'drive-slide-15',
-        //     title: 'Second Title',
-        //     image: './path/to/image/source.png',
-        //     description: 'Copy these sections to add to your story.',
-        //     location: {},
-        //     onChapterEnter: [],
-        //     onChapterExit: []
-        // }
     ]
 };
