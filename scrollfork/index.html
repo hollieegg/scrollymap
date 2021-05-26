@@ -315,7 +315,11 @@ map.on("load", function() {
     //     }
     //     }
     //     });
-
+    map.addLayer({
+      "id": "stops",
+      "type": "point",
+      "url": "./data/StopsOnly.geojson",
+    });
     map.addLayer({
       "id": "animatedLine",
       "type": "line",

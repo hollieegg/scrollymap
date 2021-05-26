@@ -178,8 +178,17 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [ 
+                {
+                layer: 'stops',
+                opacity: 1
+                }],
+            onChapterExit: [
+                {
+                    layer: 'stops',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'drive-slide-11',
