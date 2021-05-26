@@ -21,6 +21,7 @@ var followPitch = 0;
 var config = {
     style: 'mapbox://styles/holzegg/ckp5xbq0b2aud17mkcm6812o2',
     accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja21mZHlhZzIzNTN3Mm9vajhyN29lbGJzIn0._4npVCDEqBf_DpPfYc56ng',
+
     showMarkers: true,
     markerColor: '#2f4f4f',
     theme: 'liberty',
@@ -38,10 +39,10 @@ var config = {
             image: '',
             description: 'The start Location for the Bike fundraiser',
             location: {
-                center: [-89.2477, 48.3809],
-                zoom: 9.83,
-                pitch: 0.00,
-                bearing: 0.00
+                // center: [-89.2477, 48.3809],
+                // zoom: 9.83,
+                // pitch: 0.00,
+                // bearing: 0.00
             },
             onChapterEnter: [],
             onChapterExit: []
@@ -91,10 +92,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                // center: [ -84.84697, 48.04138],
-                // zoom: 15.00,
-                // pitch: 60.00,
-                // bearing: 0.00 
+                center: [ -84.84697, 48.04138],
+                zoom: 15.00,
+                pitch: 60.00,
+                bearing: 0.00 
             },
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 
