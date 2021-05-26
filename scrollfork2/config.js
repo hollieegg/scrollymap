@@ -62,6 +62,11 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {
                 // location information is from the drive route
+                center: [-84.286667,
+                46.521092],
+                zoom: 9.83,
+                pitch: 0.00,
+                bearing: 0.00
             },
             onChapterEnter: [],
             onChapterExit: []
