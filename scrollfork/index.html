@@ -288,6 +288,11 @@ map.on("load", function() {
         map.setBearing(followBearing);
         map.setPitch(followPitch);
     }
+    map.addLayer({
+            'id': 'stops',
+            'type': 'circle',
+            'source': 'data/StopsOnly.geojson'
+    });
    
     map.addSource('lineSource', {
         "type": "geojson",
