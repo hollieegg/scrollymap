@@ -99,13 +99,13 @@ var config = {
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 
                 {
-                layer: 'drive-slide-3',
+                layer: 'Places',
                 opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'drive-slide-3',
+                    layer: 'Places',
                     opacity: 0
                 }
             ]
