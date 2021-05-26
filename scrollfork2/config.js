@@ -94,25 +94,23 @@ var config = {
             title: 'Second Title',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-84.748093, 47.472679],
-                zoom: 15.00,
-                pitch: 60.00,
-                bearing: 0.00 
-            },
-      
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'drive-slide-4',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [],
             onChapterExit: []
         },
+        {
+            id: 'drive-slide-3',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-84.748093, 47.472679],
+                zoom: 15.00,
+                pitch: 60.00,
+                bearing: 0.00 }
+            },
+        
+
 
         // You can add a normal slide in between the other slides
         {
