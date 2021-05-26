@@ -67,8 +67,9 @@ function createLine() {
 
 function changeCenter(index) {
 
-    // Set center to a subsample of the line, say every 10th or 25th
-    let subsampleIndex = 10;
+    // Set center to a subsample of the line, say every 10th or 25th. This number is for
+    //how often the camer recenters along the route. 
+    let subsampleIndex = 50;
 
     let currentJson = geojsonPoint.features[0].geometry.coordinates.slice(0,index);
     let center = geojsonPoint.features[0].geometry.coordinates[index];
