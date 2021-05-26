@@ -86,11 +86,11 @@ var config = {
         },
         {
             id: 'drive-slide-3',
-            title: 'Second Title',
+            title: 'Stop: WAWA',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-84.748093, 47.472679],
+                center: [ -84.84697, 48.04138],
                 zoom: 15.00,
                 pitch: 60.00,
                 bearing: 0.00 
