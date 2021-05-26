@@ -97,9 +97,18 @@ var config = {
                 bearing: 0.00 
             },
             // mapAnimation: 'flyTo',
-      
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [ 
+                {
+                layer: 'drive-slide-3',
+                opacity: 1
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'drive-slide-3',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: 'drive-slide-4',
@@ -181,16 +190,16 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [ 
-                {
-                layer: 'stops',
-                opacity: 1
-                }
+                // {
+                // layer: 'stops',
+                // opacity: 1
+                // }
             ],
             onChapterExit: [
-                {
-                    layer: 'stops',
-                    opacity: 0
-                }
+                // {
+                //     layer: 'stops',
+                //     opacity: 0
+                // }
             ]
         }
         // {
