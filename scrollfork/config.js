@@ -39,10 +39,10 @@ var config = {
             image: '',
             description: 'The start Location for the Bike fundraiser',
             location: {
-                // center: [-89.2477, 48.3809],
-                // zoom: 9.83,
-                // pitch: 0.00,
-                // bearing: 0.00
+                center: [-89.2477, 48.3809],
+                zoom: 9.83,
+                pitch: 0.00,
+                bearing: 0.00
             },
             onChapterEnter: [],
             onChapterExit: []
