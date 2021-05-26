@@ -19,6 +19,17 @@ var followPitch = 0;
 // to add 'driving' slides just make sure to add 'drive to beginning of slide id'
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
 var config = {
+    "layers": [
+        {
+          "id": "stop",
+          "source": "./data/StopsOnly.geojson",
+        //   "source-layer": "water",
+          "type": "symbol",
+          "paint": {
+            "fill-color": "#00ffff"
+          }
+        }
+      ],
     style: 'mapbox://styles/mapbox/outdoors-v11',
     accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja292eXAzbnUwMHdhMnVsdTM4c2MyOTF3In0.6RiKfls_ZXfiI0k-q7gLDQ',
     showMarkers: true,
