@@ -22,7 +22,7 @@ var config = {
     style: 'mapbox://styles/mapbox/outdoors-v11',
     accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja292eXAzbnUwMHdhMnVsdTM4c2MyOTF3In0.6RiKfls_ZXfiI0k-q7gLDQ',
     showMarkers: true,
-    markerColor: '#f6a7c5',
+    markerColor: '#2f4f4f',
     theme: 'liberty',
     alignment: 'left',
     title: 'Liberty Project',
