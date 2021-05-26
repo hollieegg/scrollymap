@@ -20,7 +20,7 @@ var followPitch = 0;
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
 var config = {
     style: 'mapbox://styles/holzegg/ckp5xbq0b2aud17mkcm6812o2',
-    accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja292eXAzbnUwMHdhMnVsdTM4c2MyOTF3In0.6RiKfls_ZXfiI0k-q7gLDQ',
+    accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja21mZHlhZzIzNTN3Mm9vajhyN29lbGJzIn0._4npVCDEqBf_DpPfYc56ng',
     showMarkers: true,
     markerColor: '#2f4f4f',
     theme: 'liberty',
