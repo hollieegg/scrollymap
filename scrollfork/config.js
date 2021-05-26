@@ -1,6 +1,6 @@
 // Number of slides that will drive (more = smoother)
 // If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
-var driveSlides = 15;
+var driveSlides = 11;
 
 // Number of points on drive route (more = higher quality, but slower to process)
 var driveSmoothness = 180;
@@ -10,7 +10,7 @@ var driveTime = driveSlides*driveSmoothness;
 
 // Do you want to follow the point? True = follow
 // True is not that smpooth- working on seeing if can get it to follow more smoothly 
-var followPoint = false;
+var followPoint = true;
 // ...If so, what zoom, pitch, and bearing should be used to follow?
 var followZoomLevel = 7;
 var followBearing = 19;
@@ -190,42 +190,42 @@ var config = {
                 //     opacity: 0
                 // }
             ]
-        },
-        {
-            id: 'drive-slide-11',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {},
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'drive-slide-12',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {},
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'drive-slide-13',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {},
-            onChapterEnter: [],
-            onChapterExit: []
-        },
-        {
-            id: 'drive-slide-14',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {},
-            onChapterEnter: [],
-            onChapterExit: []
         }
+        // {
+        //     id: 'drive-slide-11',
+        //     title: 'Second Title',
+        //     image: './path/to/image/source.png',
+        //     description: 'Copy these sections to add to your story.',
+        //     location: {},
+        //     onChapterEnter: [],
+        //     onChapterExit: []
+        // },
+        // {
+        //     id: 'drive-slide-12',
+        //     title: 'Second Title',
+        //     image: './path/to/image/source.png',
+        //     description: 'Copy these sections to add to your story.',
+        //     location: {},
+        //     onChapterEnter: [],
+        //     onChapterExit: []
+        // },
+        // {
+        //     id: 'drive-slide-13',
+        //     title: 'Second Title',
+        //     image: './path/to/image/source.png',
+        //     description: 'Copy these sections to add to your story.',
+        //     location: {},
+        //     onChapterEnter: [],
+        //     onChapterExit: []
+        // },
+        // {
+        //     id: 'drive-slide-14',
+        //     title: 'Second Title',
+        //     image: './path/to/image/source.png',
+        //     description: 'Copy these sections to add to your story.',
+        //     location: {},
+        //     onChapterEnter: [],
+        //     onChapterExit: []
+        // }
     ]
 };
