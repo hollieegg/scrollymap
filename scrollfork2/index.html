@@ -413,16 +413,7 @@ window.addEventListener('resize', scroller.resize);
 //     return bounds.top < window.innerHeight && bounds.bottom > 0;
 // }
 
-  // Fetch just the contents of a .geojson file from GitHub by passing
-  // `application/vnd.github.v3.raw` to the Accept header
-  // As with any other AJAX request, this technique is subject to the Same Origin Policy:
-  // http://en.wikipedia.org/wiki/Same_origin_policy the server delivering the request should support CORS.
-
-
-var featureLayer = L.mapbox.featureLayer()
-    .loadURL('./data/StopsOnly.geojson')
-    .addTo(map);
-
+ 
 
 // THIS IS WHERE TO LINK TO THE GEOJSON OF THE ROUTE 
 $(document).ready(function (){
