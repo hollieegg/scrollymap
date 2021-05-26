@@ -356,7 +356,7 @@ map.on("load", function() {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
 //  uncomment first line here to make fly to animation on chapters where there are coordinates listed. 
-        map[chapter.mapAnimation || 'flyTo'](chapter.location);
+        // map[chapter.mapAnimation || 'flyTo'](chapter.location);
         // map.flyTo(chapter.location);
 
         if (config.showMarkers) {
