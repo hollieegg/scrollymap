@@ -19,7 +19,7 @@ var followPitch = 0;
 // to add 'driving' slides just make sure to add 'drive to beginning of slide id'
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
 var config = {
-    style: 'mapbox://styles/mapbox/outdoors-v11',
+    style: 'mapbox://styles/holzegg/ckp5xbq0b2aud17mkcm6812o2',
     accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja292eXAzbnUwMHdhMnVsdTM4c2MyOTF3In0.6RiKfls_ZXfiI0k-q7gLDQ',
     showMarkers: true,
     markerColor: '#2f4f4f',
@@ -99,13 +99,13 @@ var config = {
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 
                 {
-                layer: 'Places',
+                layer: 'stops',
                 opacity: 1
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'Places',
+                    layer: 'stops',
                     opacity: 0
                 }
             ]
