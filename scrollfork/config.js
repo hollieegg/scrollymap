@@ -21,9 +21,8 @@ var followPitch = 0;
 var config = {
     style: 'mapbox://styles/holzegg/ckp5xbq0b2aud17mkcm6812o2',
     accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja21mZHlhZzIzNTN3Mm9vajhyN29lbGJzIn0._4npVCDEqBf_DpPfYc56ng',
-
     showMarkers: true,
-    markerColor: '#2f4f4f',
+    // markerColor: '#2f4f4f',
     theme: 'liberty',
     alignment: 'left',
     title: 'Liberty Project',
