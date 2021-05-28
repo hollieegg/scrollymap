@@ -51,11 +51,11 @@ var config = {
                     {
                     layer: 'stop-1',
                     opacity: 0
-                    },
-                    {
-                    layer: 'stop-2',
-                    opacity: 0
                     }
+                    // {
+                    // layer: 'stop-2',
+                    // opacity: 0
+                    // }
             ],
             onChapterExit: [
                 // {
@@ -127,10 +127,10 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [ -85.55009, 48.64744],
-                zoom: 15.00,
-                pitch: 60.00,
-                bearing: 0.00 
+                // center: [ -85.55009, 48.64744],
+                // zoom: 15.00,
+                // pitch: 60.00,
+                // bearing: 0.00 
             },
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 
