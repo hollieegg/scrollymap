@@ -76,10 +76,10 @@ var config = {
                 // location information is from the drive route
             },
             onChapterEnter: [
-                // {
-                //     layer: 'stop-1',
-                //     opacity: 1
-                //     }
+                {
+                    layer: 'stop-1',
+                    opacity: 1
+                    }
             ],
             onChapterExit: []
         },
