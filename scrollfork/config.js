@@ -3,7 +3,7 @@
 var driveSlides = 11;
 
 // Number of points on drive route (more = higher quality, but slower to process)
-var driveSmoothness = 190;
+var driveSmoothness = 300;
 
 // Value used to drive
 var driveTime = driveSlides*driveSmoothness;
