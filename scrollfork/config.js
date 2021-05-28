@@ -242,6 +242,10 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-78.31972, 44.30345],
+                zoom: 15.00,
+                pitch: 60.00,
+                bearing: 0.00 
+            },
             onChapterEnter: [ 
                 {
                 layer: 'stop-10',
