@@ -47,6 +47,10 @@ var config = {
                 {
                     layer: 'start-finish',
                     opacity: 1
+                    },
+                    {
+                    layer: 'stop-1',
+                    opacity: 0
                     }
             ],
             onChapterExit: [
