@@ -59,7 +59,48 @@ var config = {
                     {
                     layer: 'stop-3',
                     opacity: 0
+                    },
+                    {
+                    layer: 'stop-4',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-5',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-6',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-7',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-8',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-9',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
                     }
+                    
             ],
             onChapterExit: [
                 // {
@@ -95,6 +136,50 @@ var config = {
                     {
                     layer: 'stop-2',
                     opacity: 0
+                    },
+                    {
+                    layer: 'stop-3',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-4',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-5',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-6',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-7',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-8',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-9',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
                     }
 
             ],
@@ -108,15 +193,60 @@ var config = {
             location: {},
             onChapterEnter: [
                 {
-                layer: 'stop-2',
-                opacity: 1
-                }
+                    layer: 'stop-2',
+                    opacity: 1
+                    },
+                    {
+                    layer: 'stop-3',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-4',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-5',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-6',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-7',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-8',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-9',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
+                    }
+
             ],
             onChapterExit: []
         },
         {
             id: 'drive-slide-2',
-            title: 'Second Title',
+            title: 'Stop 3',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {  
@@ -125,6 +255,46 @@ var config = {
                 {
                     layer: 'stop-3',
                     opacity: 1
+                    },
+                    {
+                    layer: 'stop-4',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-5',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-6',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-7',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-8',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-9',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
                     }
   
             ],
@@ -132,7 +302,7 @@ var config = {
         },
         {
             id: 'drive-slide-3',
-            title: 'Stop 3',
+            title: 'Stop 4',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
@@ -143,10 +313,46 @@ var config = {
             },
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 
-            //     {
-            //     layer: 'stop-3',
-            //     opacity: 1
-            //     }
+                {
+                    layer: 'stop-4',
+                    opacity: 1
+                    },
+                    {
+                    layer: 'stop-5',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-6',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-7',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-8',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-9',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
+                    }
             ],
             onChapterExit: [
                 // {
@@ -157,15 +363,47 @@ var config = {
         },
         {
             id: 'drive-slide-4',
-            title: 'Second Title',
+            title: 'Stop 5',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
-                // {
-                //     layer: 'stop-4',
-                //     opacity: 1
-                //     }
+                {
+                    layer: 'stop-5',
+                    opacity: 1
+                    },
+                    {
+                    layer: 'stop-6',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-7',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-8',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-9',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
+                    }
             ],
             onChapterExit: []
         },
@@ -190,90 +428,198 @@ var config = {
         },
         {
             id: 'drive-slide-5',
-            title: 'STOP 5',
+            title: 'STOP 6',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
-                // {
-                //     layer: 'stop-5',
-                //     opacity: 1
-                //     }
+                {
+                    layer: 'stop-6',
+                    opacity: 1
+                    },
+                    {
+                    layer: 'stop-7',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-8',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-9',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
+                    }
             ],
             onChapterExit: []
         },
         {
             id: 'drive-slide-6',
-            title: 'Stop 6',
+            title: 'Stop 7',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
-                // {
-                //     layer: 'stop-6',
-                //     opacity: 1
-                //     }
+                {
+                    layer: 'stop-7',
+                    opacity: 1
+                    },
+                    {
+                    layer: 'stop-8',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-9',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
+                    }
             ],
             onChapterExit: []
         },
         {
             id: 'drive-slide-7',
-            title: 'STOP 7',
+            title: 'STOP 8',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
-                // {
-                //     layer: 'stop-7',
-                //     opacity: 1
-                //     }
+                {
+                    layer: 'stop-8',
+                    opacity: 1
+                    },
+                    {
+                    layer: 'stop-9',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
+                    }
             ],
             onChapterExit: []
         },
         {
             id: 'drive-slide-8',
-            title: 'Stop 8',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {},
-            onChapterEnter: [
-                // {
-                //     layer: 'stop-8',
-                //     opacity: 1
-                //     }
-            ],
-            onChapterExit: []
-        },
-        {
-            id: 'drive-slide-9',
             title: 'Stop 9',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
-                // {
-                //     layer: 'stop-9',
-                //     opacity: 1
-                //     }
+                {
+                    layer: 'stop-9',
+                    opacity: 1
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
+                    }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-9',
+            title: 'Stop 10',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [
+                {
+                layer: 'stop-10',
+                opacity: 1
+                },
+                {
+                layer: 'stop-11',
+                opacity: 0
+                },
+                {
+                layer: 'stop-12',
+                opacity: 0
+                },
+                {
+                layer: 'stop-13',
+                opacity: 0
+                }
             ],
             onChapterExit: []
         },
         {
             id: 'drive-slide-10',
-            title: 'Stop 10',
+            title: 'Stop 11',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [-78.31972, 44.30345],
-                zoom: 15.00,
-                pitch: 60.00,
-                bearing: 0.00 
+                // center: [-78.31972, 44.30345],
+                // zoom: 15.00,
+                // pitch: 60.00,
+                // bearing: 0.00 
             },
             onChapterEnter: [ 
-                // {
-                // layer: 'stop-10',
-                // opacity: 1
-                // }
+                {
+                layer: 'stop-11',
+                opacity: 1
+                },
+                {
+                layer: 'stop-12',
+                opacity: 0
+                },
+                {
+                layer: 'stop-13',
+                opacity: 0
+                }
             ],
             onChapterExit: [
                 // {
@@ -281,37 +627,51 @@ var config = {
                 //     opacity: 0
                 // }
             ]
+        },
+        {
+            id: 'drive-slide-11',
+            title: 'Stop 12',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [
+                {
+                layer: 'stop-12',
+                opacity: 1
+                },
+                {
+                layer: 'stop-13',
+                opacity: 0
+                }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-12',
+            title: 'Stop 13',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [
+                {
+                layer: 'stop-13',
+                opacity: 0
+                }
+            ],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-13',
+            title: 'Stop 14',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
         }
         // {
-        //     id: 'drive-slide-11',
-        //     title: 'Second Title',
-        //     image: './path/to/image/source.png',
-        //     description: 'Copy these sections to add to your story.',
-        //     location: {},
-        //     onChapterEnter: [],
-        //     onChapterExit: []
-        // },
-        // {
-        //     id: 'drive-slide-12',
-        //     title: 'Second Title',
-        //     image: './path/to/image/source.png',
-        //     description: 'Copy these sections to add to your story.',
-        //     location: {},
-        //     onChapterEnter: [],
-        //     onChapterExit: []
-        // },
-        // {
-        //     id: 'drive-slide-13',
-        //     title: 'Second Title',
-        //     image: './path/to/image/source.png',
-        //     description: 'Copy these sections to add to your story.',
-        //     location: {},
-        //     onChapterEnter: [],
-        //     onChapterExit: []
-        // },
-        // {
         //     id: 'drive-slide-14',
-        //     title: 'Second Title',
+        //     title: 'Stop 15',
         //     image: './path/to/image/source.png',
         //     description: 'Copy these sections to add to your story.',
         //     location: {},
