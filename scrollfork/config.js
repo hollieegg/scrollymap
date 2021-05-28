@@ -55,6 +55,10 @@ var config = {
                     {
                     layer: 'stop-2',
                     opacity: 0
+                    },
+                    {
+                    layer: 'stop-3',
+                    opacity: 0
                     }
             ],
             onChapterExit: [
@@ -92,6 +96,7 @@ var config = {
                     layer: 'stop-2',
                     opacity: 0
                     }
+
             ],
             onChapterExit: []
         },
