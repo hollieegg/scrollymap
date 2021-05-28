@@ -97,7 +97,12 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
-            onChapterEnter: [],
+            onChapterEnter: [
+                {
+                layer: 'stop-2',
+                opacity: 1
+                }
+            ],
             onChapterExit: []
         },
         {
@@ -108,10 +113,7 @@ var config = {
             location: {  
             },
             onChapterEnter: [
-                {
-                    layer: 'stop-2',
-                    opacity: 1
-                    }
+  
             ],
             onChapterExit: []
         },
