@@ -71,10 +71,10 @@ var config = {
                 // location information is from the drive route
             },
             onChapterEnter: [
-                {
-                    layer: 'stop-1',
-                    opacity: 1
-                    }
+                // {
+                //     layer: 'stop-1',
+                //     opacity: 1
+                //     }
             ],
             onChapterExit: []
         },
@@ -100,10 +100,10 @@ var config = {
              
             },
             onChapterEnter: [
-                {
-                    layer: 'stop-2',
-                    opacity: 1
-                    }
+                // {
+                //     layer: 'stop-2',
+                //     opacity: 1
+                //     }
             ],
             onChapterExit: []
         },
@@ -120,16 +120,16 @@ var config = {
             },
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 
-                {
-                layer: 'stop-3',
-                opacity: 1
-                }
+            //     {
+            //     layer: 'stop-3',
+            //     opacity: 1
+            //     }
             ],
             onChapterExit: [
-                {
-                    layer: 'stop-3',
-                    opacity: 0
-                }
+                // {
+                //     layer: 'stop-3',
+                //     opacity: 0
+                // }
             ]
         },
         {
@@ -139,10 +139,10 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
-                {
-                    layer: 'stop-4',
-                    opacity: 1
-                    }
+                // {
+                //     layer: 'stop-4',
+                //     opacity: 1
+                //     }
             ],
             onChapterExit: []
         },
@@ -172,10 +172,10 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
-                {
-                    layer: 'stop-5',
-                    opacity: 1
-                    }
+                // {
+                //     layer: 'stop-5',
+                //     opacity: 1
+                //     }
             ],
             onChapterExit: []
         },
@@ -186,10 +186,10 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
-                {
-                    layer: 'stop-6',
-                    opacity: 1
-                    }
+                // {
+                //     layer: 'stop-6',
+                //     opacity: 1
+                //     }
             ],
             onChapterExit: []
         },
@@ -200,10 +200,10 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
-                {
-                    layer: 'stop-7',
-                    opacity: 1
-                    }
+                // {
+                //     layer: 'stop-7',
+                //     opacity: 1
+                //     }
             ],
             onChapterExit: []
         },
@@ -214,10 +214,10 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
-                {
-                    layer: 'stop-8',
-                    opacity: 1
-                    }
+                // {
+                //     layer: 'stop-8',
+                //     opacity: 1
+                //     }
             ],
             onChapterExit: []
         },
@@ -228,10 +228,10 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
-                {
-                    layer: 'stop-9',
-                    opacity: 1
-                    }
+                // {
+                //     layer: 'stop-9',
+                //     opacity: 1
+                //     }
             ],
             onChapterExit: []
         },
