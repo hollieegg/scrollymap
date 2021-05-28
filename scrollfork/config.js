@@ -19,8 +19,8 @@ var followPitch = 0;
 // to add 'driving' slides just make sure to add 'drive to beginning of slide id'
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
 var config = {
-    style: 'mapbox://styles/holzegg/ckp5xbq0b2aud17mkcm6812o2',
-    accessToken: 'pk.eyJ1IjoiaG9semVnZyIsImEiOiJja21mZHlhZzIzNTN3Mm9vajhyN29lbGJzIn0._4npVCDEqBf_DpPfYc56ng',
+    style: 'mapbox://styles/vanritto/ckp6e61p50nwy17o58eyrsnoe',
+    accessToken: 'pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ',
     showMarkers: true,
     // markerColor: '#2f4f4f',
     theme: 'liberty',
