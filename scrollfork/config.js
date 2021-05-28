@@ -51,6 +51,10 @@ var config = {
                     {
                     layer: 'stop-1',
                     opacity: 0
+                    },
+                    {
+                    layer: 'stop-2',
+                    opacity: 0
                     }
             ],
             onChapterExit: [
@@ -101,18 +105,13 @@ var config = {
             title: 'Second Title',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-87.07719, 48.78516],
-                zoom: 9.83,
-                pitch: 0.00,
-                bearing: 0.00
-             
+            location: {  
             },
             onChapterEnter: [
-                // {
-                //     layer: 'stop-2',
-                //     opacity: 1
-                //     }
+                {
+                    layer: 'stop-2',
+                    opacity: 1
+                    }
             ],
             onChapterExit: []
         },
