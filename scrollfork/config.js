@@ -22,7 +22,7 @@ var config = {
     style: 'mapbox://styles/vanritto/ckp6e61p50nwy17o58eyrsnoe',
     accessToken: 'pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ',
     showMarkers: true,
-    markerColor: 'hes2f4f4f',
+    markerColor: 'f3a9cc',
     theme: 'liberty',
     alignment: 'left',
     title: 'Liberty Project',
