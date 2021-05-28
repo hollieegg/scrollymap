@@ -44,10 +44,10 @@ var config = {
                 bearing: 0.00
             },
             onChapterEnter: [
-                {
-                    layer: 'start-finish',
-                    opacity: 1
-                    }
+                // {
+                //     layer: 'start-finish',
+                //     opacity: 1
+                //     }
             ],
             onChapterExit: []
         },
@@ -109,11 +109,11 @@ var config = {
         },
         {
             id: 'drive-slide-3',
-            title: 'Stop: WAWA',
+            title: 'Stop 3',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
-                center: [ -84.84697, 48.04138],
+                center: [ -85.55009, 48.64744],
                 zoom: 15.00,
                 pitch: 60.00,
                 bearing: 0.00 
@@ -126,10 +126,10 @@ var config = {
                 }
             ],
             onChapterExit: [
-                // {
-                //     layer: 'stops',
-                //     opacity: 0
-                // }
+                {
+                    layer: 'stop-3',
+                    opacity: 0
+                }
             ]
         },
         {
