@@ -50,10 +50,10 @@ var config = {
                     }
             ],
             onChapterExit: [
-                {
-                    layer: 'start-finish',
-                    opacity: 0
-                    }
+                // {
+                //     layer: 'start-finish',
+                //     opacity: 0
+                //     }
             ]
         },
         {
