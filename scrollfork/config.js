@@ -94,9 +94,9 @@ var config = {
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-87.07719, 48.78516],
-                // zoom: 9.83,
-                // pitch: 0.00,
-                // bearing: 0.00
+                zoom: 9.83,
+                pitch: 0.00,
+                bearing: 0.00
              
             },
             onChapterEnter: [
