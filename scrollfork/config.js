@@ -21,7 +21,7 @@ var followPitch = 0;
 var config = {
     style: 'mapbox://styles/vanritto/ckp6e61p50nwy17o58eyrsnoe',
     accessToken: 'pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ',
-    // showMarkers: true,
+    showMarkers: true,
     // markerColor: '#2f4f4f',
     theme: 'liberty',
     alignment: 'left',
@@ -247,10 +247,10 @@ var config = {
                 bearing: 0.00 
             },
             onChapterEnter: [ 
-                {
-                layer: 'stop-10',
-                opacity: 1
-                }
+                // {
+                // layer: 'stop-10',
+                // opacity: 1
+                // }
             ],
             onChapterExit: [
                 // {
