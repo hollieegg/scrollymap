@@ -240,7 +240,8 @@ var config = {
             title: 'Stop 10',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
-            location: {},
+            location: {
+                center: [-78.31972, 44.30345],
             onChapterEnter: [ 
                 {
                 layer: 'stop-10',
