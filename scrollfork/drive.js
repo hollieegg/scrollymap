@@ -16,7 +16,7 @@ var geojsonPoint = {
 function createLine() {
 
     // get the coordinates of the line you want to highlight
-    let extentArray = routeData.features[5].geometry.coordinates;
+    let extentArray = routeData.features[0].geometry.coordinates;
     
     // create a turf linestring based on the line coordinates
     const line = turf.lineString(extentArray);
@@ -28,7 +28,9 @@ function createLine() {
     const rects = driveTime;
 
     // calculate the distance between each point on the path
-    const segments = lineDistance / rects;
+    // const segments = lineDistance / rects;
+      // const segments = lineDistance / rects;
+
 
     // what units do you want to use?
     const units = 'kilometers';
