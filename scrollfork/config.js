@@ -14,7 +14,7 @@ var driveTime = driveSlides*driveSmoothness;
 // True is not that smpooth- working on seeing if can get it to follow more smoothly 
 var followPoint = true;
 // ...If so, what zoom, pitch, and bearing should be used to follow?
-var followZoomLevel = 7;
+var followZoomLevel = 8;
 var followBearing = 15;
 var followPitch = 0;
 // to add 'driving' slides just make sure to add 'drive to beginning of slide id'
