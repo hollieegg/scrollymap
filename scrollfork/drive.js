@@ -22,8 +22,10 @@ function createLine() {
     // create a turf linestring based on the line coordinates
     const line = turf.lineString(extentArray);
 
+    const chunk = turf.lineChunk(line, 15, {units: 'kilometers'});
+
     // calculate the total length of the line
-    const lineDistance = turf.lineDistance(line);
+    const lineDistance = turf.lineDistance(chunk, line);
 
     // how many points you want along the path (more = smoother animation)
     // const rects = driveTime;
