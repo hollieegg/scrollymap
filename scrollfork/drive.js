@@ -65,7 +65,7 @@ function createLine() {
         }
 
         // once 'i' equals the number of points then we're done building our line 
-        if (i == driveSlides) {
+        if (i == rects) {
             map.getSource('lineSource').setData(geojsonPoint);
         }
     }
