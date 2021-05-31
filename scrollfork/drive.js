@@ -18,12 +18,12 @@ function createLine() {
     // get the coordinates of the line you want to highlight
     let extentArray = routeData.features[0].geometry.coordinates;
     
-    const pt = turf.point([0, 0]);
+
     // create a turf linestring based on the line coordinates
     const line = turf.lineString(extentArray);
 
     // calculate the total length of the line
-    const lineDistance = turf.lineDistance(pt, line);
+    const lineDistance = turf.lineDistance(line);
 
     // how many points you want along the path (more = smoother animation)
     // const rects = driveTime;
