@@ -428,9 +428,9 @@ var config = {
         },
         {
             id: 'drive-slide-5',
-            title: 'STOP 6',
+            title: 'STOP 6: Health Education',
             image: './Images/TestImage2.png',
-            description: 'Copy these sections to add to your story.',
+            description: 'We have partnered with  @couldyoucup to help bring accessible menstrual education & management for women & girls in Northern Mozambique.  “The Could You Cup gives me security and confidence while using during my menstrual cycle. It’s the best way to prevent the shame that we receive from people! I choose Could You Cup!” - Giniquina 14 years. What a powerful testimony from this beautiful one. We are so thankful to be able to help equip girls to manage their periods in a way that ends period shaming and keeps them in school! Thank you @couldyoucup for your partnership, Together we bring freedom and bright futures to precious girls in Northern Mozambqiue! #menstruationmatters #theLibertyProject #Pemba.',
             location: {},
             onChapterEnter: [
                 {
