@@ -15,7 +15,6 @@ var followPoint = true;
 var followZoomLevel = 7;
 var followBearing = 15;
 var followPitch = 0;
-
 // to add 'driving' slides just make sure to add 'drive to beginning of slide id'
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
 var config = {
