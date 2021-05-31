@@ -31,7 +31,8 @@ function createLine() {
     // calculate the distance between each point on the path
     // const segments = lineDistance / rects;
     // const segments = lineDistance / driveSlides / rects;
-    const segments = lineDistance / driveSlides;
+    // const segments = lineDistance / driveSlides;
+    const segments = 13;
 
 
     // what units do you want to use?
