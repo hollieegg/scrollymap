@@ -186,6 +186,24 @@ var config = {
             ],
             onChapterExit: []
         },
+               // You can add a normal slide in between the other slides
+               {
+                id: 'slide-1',
+                title: 'i AM A STATIONARY cHAPTER. ',
+                image: './Images/TestImage2.png',
+                description: 'Copy these sections to add to your story.',
+                location: {
+                    // center: [-84.748093, 47.472679],
+                    // zoom: 9.83,
+                    // pitch: 0.00,
+                    // bearing: 0.00 
+                },
+                // mapAnimation: 'flyTo',
+                // rotateAnimation: false,
+                // callback: '',
+                onChapterEnter: [],
+                onChapterExit: []
+            },
         {
             id: 'drive-slide-1',
             title: 'STOP 2: Why Mozambique?',
