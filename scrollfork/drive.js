@@ -40,7 +40,7 @@ function createLine() {
 
     // based on the number of points...
     // for(let i = 0; i <= rects; i++) {
-    for(let i = 0; i <= lineDistance; i++) {
+    for(let i = 0; i <= line; i++) {
 
         // calculate point location for each segment
         // const pointonline = turf.along(line, (rects * i));
@@ -65,7 +65,7 @@ function createLine() {
         }
 
         // once 'i' equals the number of points then we're done building our line 
-        if (i == rects) {
+        if (i == driveSlides) {
             map.getSource('lineSource').setData(geojsonPoint);
         }
     }
