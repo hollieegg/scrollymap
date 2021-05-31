@@ -40,7 +40,7 @@ function createLine() {
 
     // based on the number of points...
     // for(let i = 0; i <= rects; i++) {
-    for(let i = 0; i <= line; i++) {
+    for(let i = 0; i <= rects; i++) {
 
         // calculate point location for each segment
         // const pointonline = turf.along(line, (rects * i));
