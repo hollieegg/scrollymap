@@ -39,9 +39,11 @@ function createLine() {
     const units = 'kilometers';
 
     // based on the number of points...
-    for(let i = 0; i <= rects; i++) {
+    // for(let i = 0; i <= rects; i++) {
+    for(let i = 0; i <= lineDistance; i++) {
 
         // calculate point location for each segment
+        // const pointonline = turf.along(line, (rects * i));
         const pointonline = turf.along(line, (driveSlides * i));
 
         // push new x,y
