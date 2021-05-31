@@ -26,7 +26,7 @@ function createLine() {
 
     // how many points you want along the path (more = smoother animation)
     // const rects = driveTime;
-    const rects = driveTime;
+    const rects = 100;
 
     // calculate the distance between each point on the path
     // const segments = lineDistance / rects;
