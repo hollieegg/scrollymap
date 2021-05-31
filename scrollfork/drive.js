@@ -19,7 +19,7 @@ function createLine() {
     let extentArray = routeData.features[0].geometry.coordinates;
     
     // create a turf linestring based on the line coordinates
-    const line = turf.lineString(extentArray);
+    const line = turf.lineString([[115, -32], [131, -22], [143, -25], [150, -34]]);
 
     // calculate the total length of the line
     const lineDistance = turf.lineDistance(line);
