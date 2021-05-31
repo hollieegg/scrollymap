@@ -32,7 +32,7 @@ function createLine() {
     // const segments = lineDistance / rects;
     // const segments = lineDistance / driveSlides / rects;
     // const segments = lineDistance / driveSlides;
-    const segments = lineDistance * driveSlides / rects;
+    const segments = lineDistance / driveSlides * rects;
 
 
     // what units do you want to use?
@@ -44,7 +44,7 @@ function createLine() {
 
         // calculate point location for each segment
         // const pointonline = turf.along(line, (rects * i));
-        const pointonline = turf.along(line, (driveSlides * i));
+        const pointonline = turf.along(line, (rects * i));
 
         // push new x,y
         let newX = pointonline.geometry.coordinates[0];
