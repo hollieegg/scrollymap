@@ -31,85 +31,85 @@ var config = {
     byline: 'By a Digital Storyteller',
     footer: 'Source: source citations, etc.',
     chapters: [
-        // {
-        //     id: 'start',
-        //     alignment: 'right',
-        //     // hidden: false,
-        //     title: 'Start Location: Working in Mozambique.',
-        //     image: './Images/TestImage2.png',
-        //     description: 'TEST TEXT.  The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
-        //     location: {
-        //         // center: [-89.2477, 48.3809],
-        //         // zoom: 9.83,
-        //         // pitch: 0.00,
-        //         // bearing: 0.00
-        //     },
-        //     onChapterEnter: [
-        //         {
-        //             layer: 'start-finish',
-        //             opacity: 1
-        //             },
-        //             {
-        //             layer: 'stop-1',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-2',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-3',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-4',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-5',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-6',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-7',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-8',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-9',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-10',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-11',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-12',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-13',
-        //             opacity: 0
-        //             }
+        {
+            id: 'start',
+            alignment: 'right',
+            // hidden: false,
+            title: 'Start Location: Working in Mozambique.',
+            image: './Images/TestImage2.png',
+            description: 'TEST TEXT.  The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
+            location: {
+                // center: [-89.2477, 48.3809],
+                // zoom: 9.83,
+                // pitch: 0.00,
+                // bearing: 0.00
+            },
+            onChapterEnter: [
+                {
+                    layer: 'start-finish',
+                    opacity: 1
+                    },
+                    {
+                    layer: 'stop-1',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-2',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-3',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-4',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-5',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-6',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-7',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-8',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-9',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
+                    }
                     
-        //     ],
-        //     onChapterExit: [
-        //         // {
-        //         //     layer: 'start-finish',
-        //         //     opacity: 0
-        //         //     }
-        //     ]
-        // },
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'start-finish',
+                //     opacity: 0
+                //     }
+            ]
+        },
         // {
         //     id: 'slide-0',
         //     title: 'Fundraiser',
@@ -186,24 +186,7 @@ var config = {
             ],
             onChapterExit: []
         },
-               // You can add a normal slide in between the other slides
-        {
-        id: 'slide-1',
-        title: 'i AM A STATIONARY cHAPTER. ',
-        image: './Images/TestImage2.png',
-        description: 'Copy these sections to add to your story.',
-        location: {
-            // center: [-84.748093, 47.472679],
-            // zoom: 9.83,
-            // pitch: 0.00,
-            // bearing: 0.00 
-        },
-        // mapAnimation: 'flyTo',
-        // rotateAnimation: false,
-        // callback: '',
-        onChapterEnter: [],
-        onChapterExit: []
-        },
+        
         {
             id: 'drive-slide-1',
             title: 'STOP 2: Why Mozambique?',
