@@ -34,9 +34,9 @@ var config = {
             id: 'start',
             alignment: 'right',
             // hidden: false,
-            title: 'Start Location',
+            title: 'Start Location: Working in Mozambique.',
             image: './Images/TestImage2.png',
-            description: 'TEST TEXT. Working in Mozambique. The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
+            description: 'TEST TEXT.  The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
             location: {
                 // center: [-89.2477, 48.3809],
                 // zoom: 9.83,
@@ -121,9 +121,9 @@ var config = {
         // },
         {
             id: 'drive-slide-0',
-            title: 'STOP 1',
-            image: './path/to/image/source.png',
-            description: 'Working in Mozambique. The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
+            title: 'STOP 1: Working in Mozambique.',
+            image: './Images/TestImage2.png',
+            description: 'The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
             location: {
            
                 // location information is from the drive route
@@ -187,9 +187,9 @@ var config = {
         },
         {
             id: 'drive-slide-1',
-            title: 'STOP 2',
-            image: './path/to/image/source.png',
-            description:'Why Mozambique? We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
+            title: 'STOP 2: Why Mozambique?',
+            image: './Images/TestImage2.png',
+            description:'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
             location: {},
             onChapterEnter: [
                 {
@@ -246,9 +246,9 @@ var config = {
         },
         {
             id: 'drive-slide-2',
-            title: 'Stop 3',
-            image: './path/to/image/source.png',
-            description: 'Our Response to the Numbers. We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
+            title: 'Stop 3: Our Response to the Numbers.',
+            image: './Images/TestImage2.png',
+            description: 'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
             location: {  
             },
             onChapterEnter: [
@@ -302,9 +302,9 @@ var config = {
         },
         {
             id: 'drive-slide-3',
-            title: 'Stop 4',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            title: 'Stop 4: What areas are we focusing on?',
+            image: './Images/TestImage2.png',
+            description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
             location: {
                 // center: [ -85.55009, 48.64744],
                 // zoom: 15.00,
@@ -363,9 +363,9 @@ var config = {
         },
         {
             id: 'drive-slide-4',
-            title: 'Stop 5',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            title: 'Stop 5: Education',
+            image: './Images/TestImage2.png',
+            description: 'In Mozambique over half the girls in primary school drop out by fifth grade and only 11% of those go on to complete secondary level education.. As part of our programming we are educating on basic things such as health issues; to offer women an opportunity to gain knowledge, then share it with their sphere of influence.',
             location: {},
             onChapterEnter: [
                 {
@@ -412,7 +412,7 @@ var config = {
         {
             id: 'slide-4',
             title: 'i AM A STATIONARY cHAPTER. ',
-            image: './path/to/image/source.png',
+            image: './Images/TestImage2.png',
             description: 'Copy these sections to add to your story.',
             location: {
                 // center: [-84.748093, 47.472679],
@@ -429,7 +429,7 @@ var config = {
         {
             id: 'drive-slide-5',
             title: 'STOP 6',
-            image: './path/to/image/source.png',
+            image: './Images/TestImage2.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
@@ -471,7 +471,7 @@ var config = {
         {
             id: 'drive-slide-6',
             title: 'Stop 7',
-            image: './path/to/image/source.png',
+            image: './Images/TestImage2.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
@@ -509,7 +509,7 @@ var config = {
         {
             id: 'drive-slide-7',
             title: 'STOP 8',
-            image: './path/to/image/source.png',
+            image: './Images/TestImage2.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
@@ -543,7 +543,7 @@ var config = {
         {
             id: 'drive-slide-8',
             title: 'Stop 9',
-            image: './path/to/image/source.png',
+            image: './Images/TestImage2.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
@@ -573,7 +573,7 @@ var config = {
         {
             id: 'drive-slide-9',
             title: 'Stop 10',
-            image: './path/to/image/source.png',
+            image: './Images/TestImage2.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
@@ -599,7 +599,7 @@ var config = {
         {
             id: 'drive-slide-10',
             title: 'Stop 11',
-            image: './path/to/image/source.png',
+            image: './Images/TestImage2.png',
             description: 'Copy these sections to add to your story.',
             location: {
                 // center: [-78.31972, 44.30345],
@@ -631,7 +631,7 @@ var config = {
         {
             id: 'drive-slide-11',
             title: 'Stop 12',
-            image: './path/to/image/source.png',
+            image: './Images/TestImage2.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
@@ -649,7 +649,7 @@ var config = {
         {
             id: 'drive-slide-12',
             title: 'Stop 13',
-            image: './path/to/image/source.png',
+            image: './Images/TestImage2.png',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [
@@ -662,9 +662,9 @@ var config = {
         },
         {
             id: 'drive-slide-13',
-            title: 'Stop 14',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            title: 'Stop 14: Working in Mozambique.',
+            image: './Images/TestImage2.png',
+            description: 'TEST TEXT.  The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
             location: {},
             onChapterEnter: [],
             onChapterExit: []
