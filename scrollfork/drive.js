@@ -35,7 +35,7 @@ function createLine() {
     // const segments = lineDistance / rects;
     // const segments = lineDistance / driveSlides / rects;
     // const segments = lineDistance / driveSlides;
-    const segments =  lineDistance / chunk;
+    const segments =  chunk / rects;
 
 
     // what units do you want to use?
