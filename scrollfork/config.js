@@ -2,6 +2,7 @@
 // If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
 var driveSlides = 13;
 
+
 // Number of points on drive route (more = higher quality, but slower to process)
 var driveSmoothness = 200;
 
@@ -306,10 +307,10 @@ var config = {
             image: './Images/TestImage2.png',
             description: 'The main areas that the Liberty Project works in is: Education, Health education, vocational training, trauma therapy.',
             location: {
-                // center: [ -85.55009, 48.64744],
-                // zoom: 15.00,
-                // pitch: 60.00,
-                // bearing: 0.00 
+                center: [ -85.55009, 48.64744],
+                zoom: 15.00,
+                pitch: 60.00,
+                bearing: 0.00 
             },
             // mapAnimation: 'flyTo',
             onChapterEnter: [ 
@@ -602,10 +603,10 @@ var config = {
             image: './Images/TestImage2.png',
             description: 'This ride has been such fun, even though it took a very different turn because of restrictions. Our Founder and Board Chair want to say a big thank you for everyone who donated, participated in the ride and shared our story with their friends & family!  We are excited to continue our journey in Northern Mozambique helping women to empower one another, & see the end of exploitation of women & children in Mozambique (& around the world).',
             location: {
-                // center: [-78.31972, 44.30345],
-                // zoom: 15.00,
-                // pitch: 60.00,
-                // bearing: 0.00 
+                center: [-78.31972, 44.30345],
+                zoom: 15.00,
+                pitch: 60.00,
+                bearing: 0.00 
             },
             onChapterEnter: [ 
                 {
