@@ -36,7 +36,7 @@ var config = {
             // hidden: false,
             title: 'Start Location',
             image: '',
-            description: 'The start Location for the Bike fundraiser',
+            description: 'Working in Mozambique. The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
             location: {
                 // center: [-89.2477, 48.3809],
                 // zoom: 9.83,
@@ -121,9 +121,9 @@ var config = {
         // },
         {
             id: 'drive-slide-0',
-            title: 'STOP 1?',
+            title: 'STOP 1',
             image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            description: 'Why Mozambique? We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
             location: {
            
                 // location information is from the drive route
@@ -189,7 +189,7 @@ var config = {
             id: 'drive-slide-1',
             title: 'STOP 2',
             image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            description: 'Our Response to the Numbers. We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
             location: {},
             onChapterEnter: [
                 {
