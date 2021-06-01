@@ -80,7 +80,7 @@ function changeCenter(index) {
 
     // Set center to a subsample of the line, say every 10th or 25th. This number is for
     //how often the camera recenters along the route. 
-    let subsampleIndex = 60;
+    let subsampleIndex = 50;
 
     let currentJson = geojsonPoint.features[0].geometry.coordinates.slice(0,index);
     let center = geojsonPoint.features[0].geometry.coordinates[index];
