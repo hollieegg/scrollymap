@@ -1,6 +1,6 @@
 // Number of slides that will drive (more = smoother)
 // If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
-var driveSlides = 13;
+var driveSlides = 2;
 
 
 // Number of points on drive route (more = higher quality, but slower to process)
@@ -31,85 +31,85 @@ var config = {
     byline: 'By a Digital Storyteller',
     footer: 'Source: source citations, etc.',
     chapters: [
-        // {
-        //     id: 'start',
-        //     alignment: 'right',
-        //     // hidden: false,
-        //     title: 'Start Location: Working in Mozambique.',
-        //     image: './Images/TestImage2.png',
-        //     description: 'TEST TEXT.  The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
-        //     location: {
-        //         // center: [-89.2477, 48.3809],
-        //         // zoom: 9.83,
-        //         // pitch: 0.00,
-        //         // bearing: 0.00
-        //     },
-        //     onChapterEnter: [
-        //         {
-        //             layer: 'start-finish',
-        //             opacity: 1
-        //             },
-        //             {
-        //             layer: 'stop-1',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-2',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-3',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-4',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-5',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-6',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-7',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-8',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-9',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-10',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-11',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-12',
-        //             opacity: 0
-        //             },
-        //             {
-        //             layer: 'stop-13',
-        //             opacity: 0
-        //             }
+        {
+            id: 'start',
+            alignment: 'right',
+            // hidden: false,
+            title: 'Start Location: Working in Mozambique.',
+            image: './Images/TestImage2.png',
+            description: 'TEST TEXT.  The Liberty Project is a Christian faith-based non-profit established in Pemba, Northern Mozambique working with women who have been sexually exploited, abused and culturally oppressed. Our vision is to make disciples through sustainable initiatives lead by Local women. We are an organization empowering women to empower women.',
+            location: {
+                // center: [-89.2477, 48.3809],
+                // zoom: 9.83,
+                // pitch: 0.00,
+                // bearing: 0.00
+            },
+            onChapterEnter: [
+                {
+                    layer: 'start-finish',
+                    opacity: 1
+                    },
+                    {
+                    layer: 'stop-1',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-2',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-3',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-4',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-5',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-6',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-7',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-8',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-9',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-10',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-11',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-12',
+                    opacity: 0
+                    },
+                    {
+                    layer: 'stop-13',
+                    opacity: 0
+                    }
                     
-        //     ],
-        //     onChapterExit: [
-        //         // {
-        //         //     layer: 'start-finish',
-        //         //     opacity: 0
-        //         //     }
-        //     ]
-        // },
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'start-finish',
+                //     opacity: 0
+                //     }
+            ]
+        },
         // {
         //     id: 'slide-0',
         //     title: 'Fundraiser',
@@ -245,7 +245,7 @@ var config = {
 
             ],
             onChapterExit: []
-        },
+        }
         // {
         //     id: 'drive-slide-2',
         //     title: 'Stop 3: Our Response to the Numbers.',
