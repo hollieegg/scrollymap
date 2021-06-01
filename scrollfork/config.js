@@ -8,7 +8,7 @@ var driveSmoothness = 200;
 
 // Value used to drive
 // var driveTime = driveSlides*driveSmoothness;
-var driveTime = driveSlides * 10;
+var driveTime = driveSlides * 400;
 
 // Do you want to follow the point? True = follow
 // True is not that smpooth- working on seeing if can get it to follow more smoothly 
