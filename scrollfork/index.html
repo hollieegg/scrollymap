@@ -254,7 +254,8 @@ function handleStepProgress(response) {
         let driveSlideNum = parseInt(response.element.id.slice(-1));
         if (driveSlideNum === 0) {
             map.setLayoutProperty('animatedLine', 'visibility', 'visible');
-            stepProgress = Math.round(response.progress*driveSmoothness);
+            // stepProgress = Math.round(response.progress*driveSmoothness);
+            stepProgress = Math.round(response.progress*driveSlideNum);
         } else {
             stepProgress = Math.round(response.progress*driveSmoothness+driveSmoothness*driveSlideNum);
         }
