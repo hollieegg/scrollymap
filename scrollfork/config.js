@@ -186,17 +186,30 @@ var config = {
             ],
             onChapterExit: []
         },
-        
+        {
+            id: 'slide-4',
+            title: 'i AM A STATIONARY cHAPTER. ',
+            image: './Images/TestImage2.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-88.351609, 49.00186],
+                zoom: 9.83,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            // mapAnimation: 'flyTo',
+            // rotateAnimation: false,
+            // callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
         {
             id: '1',
             title: 'STOP 2: Why Mozambique?',
             image: './Images/TestImage2.png',
             description:'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
             location: {    
-                center: [-88.351609, 49.00186],
-                zoom: 9.83,
-                pitch: 0.00,
-                bearing: 0.00
+           
            },
             onChapterEnter: [
                 {
