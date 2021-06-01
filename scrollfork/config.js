@@ -22,7 +22,7 @@ var followPitch = 0;
 var config = {
     style: 'mapbox://styles/vanritto/ckp6e61p50nwy17o58eyrsnoe',
     accessToken: 'pk.eyJ1IjoidmFucml0dG8iLCJhIjoiY2ttd3MwbmIxMGh2azJubjh5NHpmbWloaSJ9.cHakwI5tJ_9g4G56n5tlFQ',
-    showMarkers: true,
+    // showMarkers: true,
     // markerColor: 'green',
     theme: 'liberty',
     alignment: 'left',
@@ -193,10 +193,10 @@ var config = {
             image: './Images/TestImage2.png',
             description:'We believe prevention is key in equipping women and young girls for safe and bright futures free from exploitation. We work in our communities raising awareness and educating on topics such as: human rights and health. This educates and empowers women to make informed choices and look out for others in their local communities.',
             location: {    
-                center: [-88.351609, 49.00186],
-                zoom: 9.83,
-                pitch: 0.00,
-                bearing: 0.00
+                // center: [-88.351609, 49.00186],
+                // zoom: 9.83,
+                // pitch: 0.00,
+                // bearing: 0.00
            },
             onChapterEnter: [
                 {
