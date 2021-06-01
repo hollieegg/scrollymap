@@ -250,8 +250,9 @@ var scroller = scrollama();
 function handleStepProgress(response) {
     let stepProgress;
 
-    if (response.element.id.slice(0,5) === 'drive') {
-        let driveSlideNum = parseInt(response.element.id.slice(-1));
+    // if (response.element.id.slice(0,5) === 'drive') {
+    //     let driveSlideNum = parseInt(response.element.id.slice(-1));
+        let driveSlideNum = parseInt(response.element.id);
         if (driveSlideNum === 0) {
             map.setLayoutProperty('animatedLine', 'visibility', 'visible');
             // stepProgress = Math.round(response.progress*driveSmoothness);
@@ -261,7 +262,7 @@ function handleStepProgress(response) {
         }
         changeCenter(stepProgress);
     }
-}
+// }
 
 map.on("load", function() {
 
