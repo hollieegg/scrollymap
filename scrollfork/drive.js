@@ -37,7 +37,7 @@ function createLine() {
     // const segments = lineDistance / driveSlides / rects;
     // const segments = lineDistance / driveSlides;
     // const segments =  lineDistance / 1161;  THIS FOR STOP GEOJSON
-     const segments = lineDistance / driveSlides;
+     const segments = lineDistance / driveSlides / 1161;
 
 
     // what units do you want to use?
