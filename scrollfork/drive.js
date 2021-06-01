@@ -15,7 +15,8 @@ var geojsonPoint = {
 
 function createLine() {
 
-    // get the coordinates of the line you want to highlight
+    // get the coordinates of the line you want to highlight ... this is refferring to routeDAta which is the variable
+    //name of the geojson file in index.html. it then goes through top of file and grabs features > geom > coords
     let extentArray = routeData.features[0].geometry.coordinates;
     
 
