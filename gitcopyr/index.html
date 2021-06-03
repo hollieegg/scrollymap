@@ -240,8 +240,8 @@ map.on("load", function() {
             'circle-color': '#808080'
       },
       'layout': {
-           // 'visibility': 'none'
-           'circle-sort-key': 2
+        //    'visibility': 'visible',
+             'circle-sort-key': 2
        }
     });
 
@@ -255,9 +255,22 @@ map.on("load", function() {
             'line-width': 3.5
        },
        'layout': {
-           'visibility': 'none',
+        //    'visibility': 'visible',
            // sort key arranges layers - higher sort key will go on top
-           'line-sort-key': 1
+             'line-sort-key': 1
+       }
+    });
+
+
+    map.addLayer({
+      "id": "startstop",
+      "type": "symbol",
+      "source": "mapbox://styles/vanritto/ckp6e61p50nwy17o58eyrsnoe",
+      "layer": "start-finish",
+       'layout': {
+        //    'visibility': 'visible',
+           // sort key arranges layers - higher sort key will go on top
+             'line-sort-key': 3
        }
     });
 
