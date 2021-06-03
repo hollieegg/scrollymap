@@ -171,7 +171,7 @@ function handleStepProgress(response) {
 //    if (response.element.id.slice(0,5) === 'drive') {
        // let driveSlideNum = parseInt(response.element.id.slice(-1));
        //var driveSlideNum = str.split("_")[1];
-       try {
+    //    try {
            
       
        let driveSlideNum = parseInt(response.element.id.split("_")[1]);
@@ -187,9 +187,9 @@ function handleStepProgress(response) {
         }
         changeCenter(stepProgress);
     }
-} catch (error) {
-           console.log("error: "+ error);
-        }
+// } catch (error) {
+//            console.log("error: "+ error);
+//         }
 }
 //}
 
