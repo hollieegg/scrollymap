@@ -241,6 +241,7 @@ map.on("load", function() {
       },
       'layout': {
            // 'visibility': 'none'
+           'circle-sort-key': 2
        }
     });
 
@@ -255,7 +256,8 @@ map.on("load", function() {
        },
        'layout': {
            'visibility': 'none',
-           'line-sort-key': 2,
+           // sort key arranges layers - higher sort key will go on top
+           'line-sort-key': 1
        }
     });
 
