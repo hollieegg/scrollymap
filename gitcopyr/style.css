@@ -1,0 +1,380 @@
+body {
+    margin:0; 
+    padding:0; 
+    font-family: sans-serif;
+}
+a, a:hover, a:visited {
+    color: #0071bc;
+}
+#map {
+    top:0; 
+    height: 100vh;
+    width:100vw;
+    position: fixed;
+    z-index: -5;
+}
+#header {
+    margin: 3vh auto;
+    width: 90vw;
+    padding: 2vh;
+    text-align: center;
+    display:none;
+}
+#footer {
+    width: 100%;
+    min-height: 5vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-align: center;
+    line-height: 25px;
+    font-size: 13px;
+}
+#features {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    z-index: 100;
+}
+.centered {
+    width: 50vw;
+    margin: 0 auto;
+}
+.lefty {
+    width: 33vw;
+    margin-left: 5vw;
+}
+.righty {
+    width: 33vw;
+    margin-left: 62vw;
+}
+.light {
+    color: #444;
+    background-color: #fafafa;
+}
+
+.liberty {
+    color: #3d3d3d;
+    background-color: #f3a9cc;
+}
+.dark {
+    color: #fafafa;
+    background-color: #444;
+}
+.step {
+    padding-bottom: 50vh;
+    /* margin-bottom: 10vh; */
+    opacity: 0.25;
+}
+.step.active {
+    opacity: 0.9;
+}
+
+.step div {
+    padding:  25px 50px;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.step img {
+    width: 100%;
+}
+
+@media (max-width: 750px) {
+    #features {
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+/* slide in between the main slides*/
+/*********between Stop 1-2*******************/
+
+#SlideNum_0 {
+
+    visibility: hidden;
+}
+#SlideNum_1 {
+
+    visibility: hidden;
+}
+#SlideNum_2 {
+
+    visibility: hidden;
+}
+#SlideNum_3 {
+
+    visibility: hidden;
+}
+#SlideNum_4 {
+
+    visibility: hidden;
+}
+#SlideNum_6 {
+
+    visibility: hidden;
+}
+#SlideNum_7 {
+
+    visibility: hidden;
+}
+#SlideNum_8 {
+
+    visibility: hidden;
+}
+#SlideNum_9 {
+
+    visibility: hidden;
+}
+#SlideNum_10 {
+
+    visibility: hidden;
+}
+/*********between Stop 2-3*******************/
+#SlideNum_12 {
+
+    visibility: hidden;
+}
+#SlideNum_13 {
+
+    visibility: hidden;
+}
+#SlideNum_14 {
+
+    visibility: hidden;
+}
+#SlideNum_15 {
+
+    visibility: hidden;
+}
+#SlideNum_16 {
+
+    visibility: hidden;
+}
+#SlideNum_17 {
+
+    visibility: hidden;
+}
+#SlideNum_18 {
+
+    visibility: hidden;
+}
+
+/*********between Stop 3-4*******************/
+#SlideNum_20 {
+
+    visibility: hidden;
+}
+
+#SlideNum_21 {
+
+    visibility: hidden;
+}
+#SlideNum_22 {
+
+    visibility: hidden;
+}
+#SlideNum_23 {
+
+    visibility: hidden;
+}
+#SlideNum_24 {
+
+    visibility: hidden;
+}
+/*********between Stop 4-5*******************/
+#SlideNum_26 {
+
+    visibility: hidden;
+}
+#SlideNum_27 {
+
+    visibility: hidden;
+}
+#SlideNum_28 {
+
+    visibility: hidden;
+}
+/*********between Stop 5-6*******************/
+
+#SlideNum_30 {
+
+    visibility: hidden;
+}
+#SlideNum_31 {
+
+    visibility: hidden;
+}
+#SlideNum_32 {
+
+    visibility: hidden;
+}
+#SlideNum_33 {
+
+    visibility: hidden;
+}
+#SlideNum_34 {
+
+    visibility: hidden;
+}
+#SlideNum_35 {
+
+    visibility: hidden;
+}
+#SlideNum_36 {
+
+    visibility: hidden;
+}
+#SlideNum_37 {
+
+    visibility: hidden;
+}
+/*********between Stop 6-7*******************/
+#SlideNum_39 {
+
+    visibility: hidden;
+}
+#SlideNum_40 {
+
+    visibility: hidden;
+}
+/*********between Stop 7-8*******************/
+#SlideNum_42 {
+
+    visibility: hidden;
+}
+#SlideNum_43 {
+
+    visibility: hidden;
+}
+#SlideNum_44 {
+
+    visibility: hidden;
+}
+/*********between Stop 8-9*******************/
+#SlideNum_46 {
+
+    visibility: hidden;
+}
+#SlideNum_47 {
+
+    visibility: hidden;
+}
+#SlideNum_48 {
+
+    visibility: hidden;
+}
+#SlideNum_49 {
+
+    visibility: hidden;
+}
+/*********between Stop 9-10*******************/
+#SlideNum_51 {
+
+    visibility: hidden;
+}
+#SlideNum_52 {
+
+    visibility: hidden;
+}
+#SlideNum_53 {
+
+    visibility: hidden;
+}
+/*********between Stop 10-11*******************/
+
+#SlideNum_55 {
+
+    visibility: hidden;
+}
+#SlideNum_56 {
+
+    visibility: hidden;
+}
+#SlideNum_57 {
+
+    visibility: hidden;
+}
+#SlideNum_58 {
+
+    visibility: hidden;
+}
+#SlideNum_59 {
+
+    visibility: hidden;
+}
+#SlideNum_60 {
+
+    visibility: hidden;
+}
+#SlideNum_61 {
+
+    visibility: hidden;
+}
+#SlideNum_62 {
+
+    visibility: hidden;
+}
+#SlideNum_63 {
+
+    visibility: hidden;
+}
+/*********between Stop 11-12*******************/
+#SlideNum_65 {
+
+    visibility: hidden;
+}
+#SlideNum_66 {
+
+    visibility: hidden;
+}
+#SlideNum_67 {
+
+    visibility: hidden;
+}
+
+/*********between Stop 12-13*******************/
+
+#SlideNum_69 {
+
+    visibility: hidden;
+}
+#SlideNum_70 {
+
+    visibility: hidden;
+}
+#SlideNum_71 {
+
+    visibility: hidden;
+}
+#SlideNum_72 {
+
+    visibility: hidden;
+}
+#SlideNum_73 {
+
+    visibility: hidden;
+}
+#SlideNum_74 {
+
+    visibility: hidden;
+}
+#SlideNum_75 {
+
+    visibility: hidden;
+}
+/*********between Stop 13-14*******************/
+#SlideNum_77 {
+
+    visibility: hidden;
+}
+#SlideNum_78 {
+
+    visibility: hidden;
+}
+#SlideNum_79 {
+
+    visibility: hidden;
+}

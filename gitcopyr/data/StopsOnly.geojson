@@ -1,0 +1,278 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.286667,
+                    46.521092,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sault Ste. Marie",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.351609,
+                    49.00186,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nipigon",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.077195,
+                    48.785168,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Terrace Bay",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.550095,
+                    48.647444,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "White River",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.84697,
+                    48.041381,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wawa",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.748093,
+                    47.472679,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lake Superior Park",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.056687,
+                    46.475716,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sudbury",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.980271,
+                    44.535692,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kawartha Lakes",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.738328,
+                    45.17431,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Parry Sound",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.424973,
+                    45.656305,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Point au Baril",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.776291,
+                    46.259662,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Espanola",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.951829,
+                    46.183651,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Blind River",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.781296,
+                    46.320395,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bruce Mines",
+                "styleUrl": "#icon-1899-0288D1-nodesc",
+                "styleHash": "48999a20",
+                "styleMapHash": {
+                    "normal": "#icon-1899-0288D1-nodesc-normal",
+                    "highlight": "#icon-1899-0288D1-nodesc-highlight"
+                },
+                "icon": "https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png"
+            }
+        }
+    ]
+}
